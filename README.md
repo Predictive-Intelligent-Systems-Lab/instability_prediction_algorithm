@@ -57,7 +57,7 @@ Ambiguous cases are excluded.
 
 ### 6. CNN Training
 Trains a convolutional neural network on classified matrices:
-- Architecture: 3 conv layers (32→64→128 filters) + 2 fully connected layers
+- Architecture: 3 conv layers (32->64->128 filters) + 2 fully connected layers
 - Training: 50 epochs, batch size 16, 80/20 train/val split
 - Outputs model weights, training curves, and confusion matrix
 
@@ -93,3 +93,4 @@ python convolutional_neural_network.py
 
 - Python 3.7+
 - NumPy, SciPy, Matplotlib, Pandas, tqdm, scikit-learn, PyTorch
+
