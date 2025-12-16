@@ -47,9 +47,9 @@ Performs time-delay embedding and computes pairwise distances to create binary r
 
 ### 5. Classification
 Classifies matrices into 4 stability types using geometric analysis and 0-1 chaos test:
-- **Regular:** periodic/quasi-periodic, K ≤ 0.2
+- **Regular:** periodic/quasi-periodic, K <= 0.2
 - **Type II:** Type II intermittency, 2nd quadrant (F_b ~ 1.0, centroid top-left) **System  hovers near a stable oscillatory state but is perturbed into erratic behavior**
-- **Chaotic:** K ≥ 0.8
+- **Chaotic:** K >= 0.8
 
 Ambiguous cases are excluded.
 
@@ -93,4 +93,5 @@ python convolutional_neural_network.py
 
 - Python 3.7+
 - NumPy, SciPy, Matplotlib, Pandas, tqdm, scikit-learn, PyTorch
+
 
