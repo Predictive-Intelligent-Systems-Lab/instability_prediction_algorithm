@@ -95,3 +95,4 @@ python convolutional_neural_network.py
 - NumPy, SciPy, Matplotlib, Pandas, tqdm, scikit-learn, PyTorch
 
 
+
